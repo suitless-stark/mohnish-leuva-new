@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohnish Leuva - Online Portfolio">
+  <meta name="keywords" content="Mohnish Leuva, mohnish, leuva, portfolio, suitless stark, Web Design, UI/UX, Interactive Media Design, User Interface, User Experience">
+  <meta name="author" content="Mohnish">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact - Mohnish Leuva</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="https://use.typekit.net/jwi1eot.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/custom-cursor.min.css">
+  <link rel="stylesheet" href="css/animated-bg.css">
+  <link rel="stylesheet" href="css/custom.min.css">
+</head>
+
+<body>
+
+    <!-- animated bg -->
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <!-- animated bg ends -->
+
+  <!-- navbar starts -->
+  <header class="d-flex flex-wrap justify-content-center py-3">
+    <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
+      <img class="bi brand-logo ms-xl-5 ms-lg-5 ms-md-5" src="img/ml_logo_white.png" alt="Mohnish Leuva Logo"
+        width="50">
+    </a>
+
+    <ul class="nav col-12 col-md-auto mb-2 align-items-center justify-content-center mb-md-0">
+      <li class="nav-item"><a href="portfolio.html" class="nav-link"><span>myPortfolio();</span></a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link"><span>aboutMe();</span></a></li>
+    </ul>
+    <div class="text-end me-xl-5 me-lg-5 me-md-5">
+      <a href="contact.html">
+        <button type="button" class="btn contact-btn">contactMe();</button>
+      </a>
+    </div>
+  </header>
+  <!-- navbar ends -->
+  <div class="container contact-form">
+    <main>
+      <div class="py-5 text-center">
+        <h1>Drop me a text!</h1>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-md-4 col-lg-4 order-md-last">
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-around lh-sm">
+              <span class="text-muted"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></span>
+              <div>
+                <h4 class="my-0"><span class="text-muted">Christchurch, NZ</span></h4>
+              </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-around lh-sm">
+              <span class="text-muted"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></span>
+              <div>
+                <h5 class="my-0"><a href="tel:027-351-1060" title="Give me a call"><span
+                      class="text-muted">027-351-1060</span></a></h5>
+              </div>
+            </li>
+          </ul>
+          <hr class="my-3">
+          <ul class="social-media-list">
+            <a href="https://www.github.com/suitless-stark" target="_blank" class="contact-icon">
+              <li>
+                <i class="fab fa-github"></i>
+              </li>
+            </a>
+            <a href="https://www.facebook.com/iamMKL" target="_blank" class="contact-icon">
+              <li>
+                <i class="fab fa-facebook-f"></i>
+              </li>
+            </a>
+            <a href="https://www.instagram.com/suitless.stark" target="_blank" class="contact-icon">
+              <li>
+                <i class="fab fa-instagram"></i>
+              </li>
+            </a>
+            <a href="https://www.linkedin.com/in/mohnish-leuva-73a8b6216/" target="_blank" class="contact-icon">
+              <li>
+                <i class="fab fa-linkedin"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <div class="col-md-8 col-lg-8">
+          <form class="needs-validation" novalidate action="https://formsubmit.co/el/lecozu" method="POST">
+            <div class="row g-3">
+              <div class="col-12">
+                <label for="firstName" class="form-label text-muted">Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="John Doe" value="" required
+                  name="name">
+                <div class="invalid-feedback">
+                  Please enter a valid name.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label text-muted">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="john.doe@example.com" required name="email">
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="message" class="form-label text-muted">Message</label>
+                <textarea class="form-control" rows="10" placeholder="Kia Ora, How's it going?" name="message"
+                  required></textarea>
+                <div class="invalid-feedback">
+                  Please enter a message.
+                </div>
+              </div>
+
+              <button class="btn btn-warning send-button my-5" id="submit" type="submit" value="SEND">
+                <div class="alt-send-button">
+                  <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+  <script src="js/form-validation.js" charset="utf-8"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
